@@ -10,7 +10,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: update  # ???? ??? ???? ??? ??? ??
+      ddl-auto: update  # create, create-drop, update, validate, none 앞 세개는 운영시에는 절대 쓰면 안됨, 보통 운영은 none으로 함
     show-sql: true
     properties:
       hibernate:

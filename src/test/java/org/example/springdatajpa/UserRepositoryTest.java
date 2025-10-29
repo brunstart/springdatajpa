@@ -20,7 +20,7 @@ public class UserRepositoryTest {
 
     @BeforeEach
     public void setUp() throws Exception {
-        userRepository.deleteAll();
+        // userRepository.deleteAll();
 
         userRepository.save(new User("carami", "carami@gmail.com"));
         userRepository.save(new User("kang", "kang@gmail.com"));
